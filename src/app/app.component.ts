@@ -34,14 +34,14 @@ export class AppComponent implements OnInit {
     this.loadComponent();
   }
 
-  loadComponent() {
+  async loadComponent() {
     const viewContainerRef = this.dynamicComponentsHost.viewContainerRef;
 
-    this.components.forEach(async (component) => {
+    for (const component of this.components) {
       const ref = await component.ref();
       const componentRef =
         viewContainerRef.createComponent<DynamicComponent>(ref);
       componentRef.instance.data = component.data;
-    });
+    }
   }
 }
