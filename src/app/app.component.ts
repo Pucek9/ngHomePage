@@ -37,10 +37,10 @@ export class AppComponent implements OnInit {
   loadComponent() {
     const viewContainerRef = this.dynamicComponentsHost.viewContainerRef;
 
-    this.components.forEach((component) => {
-      const componentRef = viewContainerRef.createComponent<DynamicComponent>(
-        component.ref
-      );
+    this.components.forEach(async (component) => {
+      const ref = await component.ref();
+      const componentRef =
+        viewContainerRef.createComponent<DynamicComponent>(ref);
       componentRef.instance.data = component.data;
     });
   }
