@@ -1,16 +1,15 @@
-import {Component, Input, OnInit} from '@angular/core';
-import {DynamicComponent} from "../DynamicComponent";
+import { Component, Input, OnInit } from '@angular/core';
+import { DynamicComponent } from '../DynamicComponent';
 
 @Component({
   selector: 'app-from-blog',
   templateUrl: './from-blog.component.html',
-  styleUrls: ['./from-blog.component.css']
+  styleUrls: ['./from-blog.component.css'],
 })
 export class FromBlogComponent implements OnInit, DynamicComponent {
+  constructor() {}
 
-  constructor() { }
   @Input() data: any;
-  ngOnInit(): void {
-  }
 
+  ngOnInit(): void {}
 }

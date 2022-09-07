@@ -13,12 +13,10 @@ import { DynamicComponentDirective } from './dynamic-component.directive';
     HeroBannerComponent,
     SectionComponent,
     FromBlogComponent,
-    DynamicComponentDirective
+    DynamicComponentDirective,
   ],
-  imports: [
-    BrowserModule
-  ],
+  imports: [BrowserModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

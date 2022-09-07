@@ -1,653 +1,521 @@
 export const mockPage = {
+  entry: {
+    _version: 2,
 
-  "entry": {
+    locale: 'en-us',
 
-    "_version": 2,
+    uid: 'bltb50cec231ca21535',
 
-    "locale": "en-us",
+    ACL: {},
 
-    "uid": "bltb50cec231ca21535",
+    _in_progress: false,
 
-    "ACL": {},
+    created_at: '2022-09-01T14:39:44.397Z',
 
-    "_in_progress": false,
+    created_by: 'bltfc226d08d1478aa7',
 
-    "created_at": "2022-09-01T14:39:44.397Z",
-
-    "created_by": "bltfc226d08d1478aa7",
-
-    "page_components": [
-
+    page_components: [
       {
+        hero_banner: {
+          banner_image: {
+            _version: 1,
 
-        "hero_banner": {
+            is_dir: false,
 
-          "banner_image": {
+            uid: 'blt4b8a82ee834bca42',
 
-            "_version": 1,
+            ACL: {},
 
-            "is_dir": false,
+            content_type: 'image/svg+xml',
 
-            "uid": "blt4b8a82ee834bca42",
+            created_at: '2022-09-01T14:38:51.623Z',
 
-            "ACL": {},
+            created_by: 'bltfc226d08d1478aa7',
 
-            "content_type": "image/svg+xml",
+            description: '',
 
-            "created_at": "2022-09-01T14:38:51.623Z",
+            file_size: '54029',
 
-            "created_by": "bltfc226d08d1478aa7",
+            filename: 'winning-digital-strategy.svg',
 
-            "description": "",
+            parent_uid: 'blt17e996243a488623',
 
-            "file_size": "54029",
+            tags: [],
 
-            "filename": "winning-digital-strategy.svg",
+            title: 'Winning Digital Strategy',
 
-            "parent_uid": "blt17e996243a488623",
+            updated_at: '2022-09-01T14:38:51.623Z',
 
-            "tags": [],
+            updated_by: 'bltfc226d08d1478aa7',
 
-            "title": "Winning Digital Strategy",
+            publish_details: {
+              environment: 'blt6c280c135323f9e9',
 
-            "updated_at": "2022-09-01T14:38:51.623Z",
+              locale: 'en-us',
 
-            "updated_by": "bltfc226d08d1478aa7",
+              time: '2022-09-01T14:38:52.324Z',
 
-            "publish_details": {
-
-              "environment": "blt6c280c135323f9e9",
-
-              "locale": "en-us",
-
-              "time": "2022-09-01T14:38:52.324Z",
-
-              "user": "bltfc226d08d1478aa7"
-
+              user: 'bltfc226d08d1478aa7',
             },
 
-            "url": "https://eu-images.contentstack.com/v3/assets/blt945854bdb80e6bbf/blt4b8a82ee834bca42/6310c3fb32fb872c787b36c9/winning-digital-strategy.svg"
-
+            url: 'https://eu-images.contentstack.com/v3/assets/blt945854bdb80e6bbf/blt4b8a82ee834bca42/6310c3fb32fb872c787b36c9/winning-digital-strategy.svg',
           },
 
-          "_metadata": {
-
-            "uid": "cs4fd66e820e6e7d2f"
-
+          _metadata: {
+            uid: 'cs4fd66e820e6e7d2f',
           },
 
-          "bg_color": "#715cdd",
+          bg_color: '#715cdd',
 
-          "text_color": "#ffffff",
+          text_color: '#ffffff',
 
-          "banner_title": "Create A Winning Digital Strategy For Your Business",
+          banner_title: 'Create A Winning Digital Strategy For Your Business',
 
-          "banner_description": "We help you create an agile digital strategy that helps you stand out and win customers. Nothing less.",
+          banner_description:
+            'We help you create an agile digital strategy that helps you stand out and win customers. Nothing less.',
 
-          "call_to_action": {
+          call_to_action: {
+            title: 'Read more',
 
-            "title": "Read more",
-
-            "href": "/"
-
-          }
-
-        }
-
+            href: '/',
+          },
+        },
       },
 
       {
+        section: {
+          title_h2: 'We are here to help you with what’s next',
 
-        "section": {
-
-          "title_h2": "We are here to help you with what’s next",
-
-          "_metadata": {
-
-            "uid": "cs7ff8d492877d43ca"
-
+          _metadata: {
+            uid: 'cs7ff8d492877d43ca',
           },
 
-          "description": "At SampleSite, we are obsessed with technology and well-versed with trends. As a consultancy with more than a quarter-century of experience, we bring clarity and vision to our clients and help them set up solutions for tomorrow.",
+          description:
+            'At SampleSite, we are obsessed with technology and well-versed with trends. As a consultancy with more than a quarter-century of experience, we bring clarity and vision to our clients and help them set up solutions for tomorrow.',
 
-          "call_to_action": {
+          call_to_action: {
+            title: 'Connect with an Advisor',
 
-            "title": "Connect with an Advisor",
-
-            "href": "/"
-
+            href: '/',
           },
 
-          "image": {
+          image: {
+            _version: 1,
 
-            "_version": 1,
+            is_dir: false,
 
-            "is_dir": false,
+            uid: 'blt9a18af4ae86ed07f',
 
-            "uid": "blt9a18af4ae86ed07f",
+            ACL: {},
 
-            "ACL": {},
+            content_type: 'image/svg+xml',
 
-            "content_type": "image/svg+xml",
+            created_at: '2022-09-01T14:38:54.203Z',
 
-            "created_at": "2022-09-01T14:38:54.203Z",
+            created_by: 'bltfc226d08d1478aa7',
 
-            "created_by": "bltfc226d08d1478aa7",
+            file_size: '49454',
 
-            "file_size": "49454",
+            filename: 'help-for-the-next-step.svg',
 
-            "filename": "help-for-the-next-step.svg",
+            parent_uid: 'blt17e996243a488623',
 
-            "parent_uid": "blt17e996243a488623",
+            tags: [],
 
-            "tags": [],
+            title: 'help-for-the-next-step.svg',
 
-            "title": "help-for-the-next-step.svg",
+            updated_at: '2022-09-01T14:38:54.203Z',
 
-            "updated_at": "2022-09-01T14:38:54.203Z",
+            updated_by: 'bltfc226d08d1478aa7',
 
-            "updated_by": "bltfc226d08d1478aa7",
+            publish_details: {
+              environment: 'blt6c280c135323f9e9',
 
-            "publish_details": {
+              locale: 'en-us',
 
-              "environment": "blt6c280c135323f9e9",
+              time: '2022-09-01T14:38:54.912Z',
 
-              "locale": "en-us",
-
-              "time": "2022-09-01T14:38:54.912Z",
-
-              "user": "bltfc226d08d1478aa7"
-
+              user: 'bltfc226d08d1478aa7',
             },
 
-            "url": "https://eu-images.contentstack.com/v3/assets/blt945854bdb80e6bbf/blt9a18af4ae86ed07f/6310c3fe825e452a0a712584/help-for-the-next-step.svg"
-
+            url: 'https://eu-images.contentstack.com/v3/assets/blt945854bdb80e6bbf/blt9a18af4ae86ed07f/6310c3fe825e452a0a712584/help-for-the-next-step.svg',
           },
 
-          "image_alignment": "Left"
-
-        }
-
+          image_alignment: 'Left',
+        },
       },
 
       {
+        section_with_buckets: {
+          title_h2: 'Choose the #1 Tech Consultancy',
 
-        "section_with_buckets": {
-
-          "title_h2": "Choose the #1 Tech Consultancy",
-
-          "_metadata": {
-
-            "uid": "csafd941cda9e93ec0"
-
+          _metadata: {
+            uid: 'csafd941cda9e93ec0',
           },
 
-          "description": "We lead you throughout your digital transformation",
+          description: 'We lead you throughout your digital transformation',
 
-          "bucket_tabular": false,
+          bucket_tabular: false,
 
-          "buckets": [
-
+          buckets: [
             {
+              title_h3: 'Artificial Intelligence',
 
-              "title_h3": "Artificial Intelligence",
-
-              "_metadata": {
-
-                "uid": "cs8c342bbd996eb531"
-
+              _metadata: {
+                uid: 'cs8c342bbd996eb531',
               },
 
-              "description": {
+              description: {
+                uid: '7390860d5f68f68d470a082769d061c8',
 
-                "uid": "7390860d5f68f68d470a082769d061c8",
+                attrs: {},
 
-                "attrs": {},
-
-                "children": [
-
+                children: [
                   {
+                    type: 'p',
 
-                    "type": "p",
+                    attrs: {},
 
-                    "attrs": {},
+                    uid: '831adaf79af5f144f5e2a814800f1bca',
 
-                    "uid": "831adaf79af5f144f5e2a814800f1bca",
-
-                    "children": [
-
+                    children: [
                       {
-
-                        "text": "Make every interaction with your customers more intelligent than ever."
-
-                      }
-
-                    ]
-
-                  }
-
+                        text: 'Make every interaction with your customers more intelligent than ever.',
+                      },
+                    ],
+                  },
                 ],
 
-                "type": "doc",
+                type: 'doc',
 
-                "_version": 2
-
+                _version: 2,
               },
 
-              "icon": {
+              icon: {
+                _version: 1,
 
-                "_version": 1,
+                is_dir: false,
 
-                "is_dir": false,
+                uid: 'blt07d90c29085d3102',
 
-                "uid": "blt07d90c29085d3102",
+                ACL: {},
 
-                "ACL": {},
+                content_type: 'image/svg+xml',
 
-                "content_type": "image/svg+xml",
+                created_at: '2022-09-01T14:38:47.723Z',
 
-                "created_at": "2022-09-01T14:38:47.723Z",
+                created_by: 'bltfc226d08d1478aa7',
 
-                "created_by": "bltfc226d08d1478aa7",
+                description: '',
 
-                "description": "",
+                file_size: '706',
 
-                "file_size": "706",
+                filename: 'artificial-intelligence.svg',
 
-                "filename": "artificial-intelligence.svg",
+                parent_uid: 'blt17e996243a488623',
 
-                "parent_uid": "blt17e996243a488623",
+                tags: [],
 
-                "tags": [],
+                title: 'Artificial Intelligence.svg',
 
-                "title": "Artificial Intelligence.svg",
+                updated_at: '2022-09-01T14:38:47.723Z',
 
-                "updated_at": "2022-09-01T14:38:47.723Z",
+                updated_by: 'bltfc226d08d1478aa7',
 
-                "updated_by": "bltfc226d08d1478aa7",
+                publish_details: {
+                  environment: 'blt6c280c135323f9e9',
 
-                "publish_details": {
+                  locale: 'en-us',
 
-                  "environment": "blt6c280c135323f9e9",
+                  time: '2022-09-01T14:38:48.399Z',
 
-                  "locale": "en-us",
-
-                  "time": "2022-09-01T14:38:48.399Z",
-
-                  "user": "bltfc226d08d1478aa7"
-
+                  user: 'bltfc226d08d1478aa7',
                 },
 
-                "url": "https://eu-images.contentstack.com/v3/assets/blt945854bdb80e6bbf/blt07d90c29085d3102/6310c3f723ec7d16b20ce84f/artificial-intelligence.svg"
-
+                url: 'https://eu-images.contentstack.com/v3/assets/blt945854bdb80e6bbf/blt07d90c29085d3102/6310c3f723ec7d16b20ce84f/artificial-intelligence.svg',
               },
 
-              "call_to_action": {
+              call_to_action: {
+                title: 'Start Now',
 
-                "title": "Start Now",
-
-                "href": "#"
-
-              }
-
+                href: '#',
+              },
             },
 
             {
+              title_h3: 'Cloud Computing',
 
-              "title_h3": "Cloud Computing",
-
-              "_metadata": {
-
-                "uid": "cs7e9d4b3a24891796"
-
+              _metadata: {
+                uid: 'cs7e9d4b3a24891796',
               },
 
-              "description": {
+              description: {
+                uid: 'a13adc4f17bd8725228d2794cc0fd64b',
 
-                "uid": "a13adc4f17bd8725228d2794cc0fd64b",
+                attrs: {},
 
-                "attrs": {},
-
-                "children": [
-
+                children: [
                   {
+                    type: 'p',
 
-                    "type": "p",
+                    attrs: {},
 
-                    "attrs": {},
+                    uid: '859ef1c890ec234266ca501dd66803f1',
 
-                    "uid": "859ef1c890ec234266ca501dd66803f1",
-
-                    "children": [
-
+                    children: [
                       {
-
-                        "text": "Set up a modular infrastructure that is built to last but makes it easy for your business to evolve."
-
-                      }
-
-                    ]
-
-                  }
-
+                        text: 'Set up a modular infrastructure that is built to last but makes it easy for your business to evolve.',
+                      },
+                    ],
+                  },
                 ],
 
-                "type": "doc",
+                type: 'doc',
 
-                "_version": 2
-
+                _version: 2,
               },
 
-              "icon": {
+              icon: {
+                _version: 1,
 
-                "_version": 1,
+                is_dir: false,
 
-                "is_dir": false,
+                uid: 'blt7390f2805fda2445',
 
-                "uid": "blt7390f2805fda2445",
+                ACL: {},
 
-                "ACL": {},
+                content_type: 'image/svg+xml',
 
-                "content_type": "image/svg+xml",
+                created_at: '2022-09-01T14:38:35.035Z',
 
-                "created_at": "2022-09-01T14:38:35.035Z",
+                created_by: 'bltfc226d08d1478aa7',
 
-                "created_by": "bltfc226d08d1478aa7",
+                description: '',
 
-                "description": "",
+                file_size: '1314',
 
-                "file_size": "1314",
+                filename: 'cloud-computing.svg',
 
-                "filename": "cloud-computing.svg",
+                parent_uid: 'blt17e996243a488623',
 
-                "parent_uid": "blt17e996243a488623",
+                tags: [],
 
-                "tags": [],
+                title: 'Cloud Computing',
 
-                "title": "Cloud Computing",
+                updated_at: '2022-09-01T14:38:35.035Z',
 
-                "updated_at": "2022-09-01T14:38:35.035Z",
+                updated_by: 'bltfc226d08d1478aa7',
 
-                "updated_by": "bltfc226d08d1478aa7",
+                publish_details: {
+                  environment: 'blt6c280c135323f9e9',
 
-                "publish_details": {
+                  locale: 'en-us',
 
-                  "environment": "blt6c280c135323f9e9",
+                  time: '2022-09-01T14:38:35.715Z',
 
-                  "locale": "en-us",
-
-                  "time": "2022-09-01T14:38:35.715Z",
-
-                  "user": "bltfc226d08d1478aa7"
-
+                  user: 'bltfc226d08d1478aa7',
                 },
 
-                "url": "https://eu-images.contentstack.com/v3/assets/blt945854bdb80e6bbf/blt7390f2805fda2445/6310c3eb75d1b81f803643d1/cloud-computing.svg"
-
+                url: 'https://eu-images.contentstack.com/v3/assets/blt945854bdb80e6bbf/blt7390f2805fda2445/6310c3eb75d1b81f803643d1/cloud-computing.svg',
               },
 
-              "call_to_action": {
+              call_to_action: {
+                title: 'Rollover your 401k',
 
-                "title": "Rollover your 401k",
-
-                "href": "#"
-
-              }
-
+                href: '#',
+              },
             },
 
             {
+              title_h3: 'Security',
 
-              "title_h3": "Security",
-
-              "_metadata": {
-
-                "uid": "csce6795aa791f32fa"
-
+              _metadata: {
+                uid: 'csce6795aa791f32fa',
               },
 
-              "description": {
+              description: {
+                uid: '685622dde3ca228259d51685630bac2f',
 
-                "uid": "685622dde3ca228259d51685630bac2f",
+                attrs: {},
 
-                "attrs": {},
-
-                "children": [
-
+                children: [
                   {
+                    type: 'p',
 
-                    "type": "p",
+                    attrs: {},
 
-                    "attrs": {},
+                    uid: '5d8a1d157a5b1f80dc024f4157928cb7',
 
-                    "uid": "5d8a1d157a5b1f80dc024f4157928cb7",
-
-                    "children": [
-
+                    children: [
                       {
-
-                        "text": "Protect your business from the deadliest threats of today and tomorrow."
-
-                      }
-
-                    ]
-
-                  }
-
+                        text: 'Protect your business from the deadliest threats of today and tomorrow.',
+                      },
+                    ],
+                  },
                 ],
 
-                "type": "doc",
+                type: 'doc',
 
-                "_version": 2
-
+                _version: 2,
               },
 
-              "icon": {
+              icon: {
+                _version: 1,
 
-                "_version": 1,
+                is_dir: false,
 
-                "is_dir": false,
+                uid: 'blt7892efbdd01f3bb8',
 
-                "uid": "blt7892efbdd01f3bb8",
+                ACL: {},
 
-                "ACL": {},
+                content_type: 'image/svg+xml',
 
-                "content_type": "image/svg+xml",
+                created_at: '2022-09-01T14:38:55.450Z',
 
-                "created_at": "2022-09-01T14:38:55.450Z",
+                created_by: 'bltfc226d08d1478aa7',
 
-                "created_by": "bltfc226d08d1478aa7",
+                description: '',
 
-                "description": "",
+                file_size: '1053',
 
-                "file_size": "1053",
+                filename: 'security.svg',
 
-                "filename": "security.svg",
+                parent_uid: 'blt17e996243a488623',
 
-                "parent_uid": "blt17e996243a488623",
+                tags: [],
 
-                "tags": [],
+                title: 'Security',
 
-                "title": "Security",
+                updated_at: '2022-09-01T14:38:55.450Z',
 
-                "updated_at": "2022-09-01T14:38:55.450Z",
+                updated_by: 'bltfc226d08d1478aa7',
 
-                "updated_by": "bltfc226d08d1478aa7",
+                publish_details: {
+                  environment: 'blt6c280c135323f9e9',
 
-                "publish_details": {
+                  locale: 'en-us',
 
-                  "environment": "blt6c280c135323f9e9",
+                  time: '2022-09-01T14:38:56.103Z',
 
-                  "locale": "en-us",
-
-                  "time": "2022-09-01T14:38:56.103Z",
-
-                  "user": "bltfc226d08d1478aa7"
-
+                  user: 'bltfc226d08d1478aa7',
                 },
 
-                "url": "https://eu-images.contentstack.com/v3/assets/blt945854bdb80e6bbf/blt7892efbdd01f3bb8/6310c3ff512eb323e9bc9724/security.svg"
-
+                url: 'https://eu-images.contentstack.com/v3/assets/blt945854bdb80e6bbf/blt7892efbdd01f3bb8/6310c3ff512eb323e9bc9724/security.svg',
               },
 
-              "call_to_action": {
+              call_to_action: {
+                title: 'Learn More',
 
-                "title": "Learn More",
-
-                "href": "#"
-
-              }
-
-            }
-
-          ]
-
-        }
-
+                href: '#',
+              },
+            },
+          ],
+        },
       },
 
       {
+        from_blog: {
+          title_h2: 'Learn about our community outreach',
 
-        "from_blog": {
-
-          "title_h2": "Learn about our community outreach",
-
-          "_metadata": {
-
-            "uid": "cs59eb40ffadbed53a"
-
+          _metadata: {
+            uid: 'cs59eb40ffadbed53a',
           },
 
-          "featured_blogs": [
-
+          featured_blogs: [
             {
+              uid: 'bltaeb1cf4eebbf6341',
 
-              "uid": "bltaeb1cf4eebbf6341",
-
-              "_content_type_uid": "blog_post"
-
+              _content_type_uid: 'blog_post',
             },
 
             {
+              uid: 'blt7efa48bcd1e7adce',
 
-              "uid": "blt7efa48bcd1e7adce",
-
-              "_content_type_uid": "blog_post"
-
-            }
-
+              _content_type_uid: 'blog_post',
+            },
           ],
 
-          "view_articles": {
+          view_articles: {
+            title: 'View Articles',
 
-            "title": "View Articles",
-
-            "href": "/blog"
-
-          }
-
-        }
-
+            href: '/blog',
+          },
+        },
       },
 
       {
-
-        "section_with_cards": {
-
-          "cards": [
-
+        section_with_cards: {
+          cards: [
             {
+              title_h3: 'Schedule a Demo with us',
 
-              "title_h3": "Schedule a Demo with us",
-
-              "_metadata": {
-
-                "uid": "csa2e875186ea2d395"
-
+              _metadata: {
+                uid: 'csa2e875186ea2d395',
               },
 
-              "description": "Get a customized platform walk through for your stack.",
+              description:
+                'Get a customized platform walk through for your stack.',
 
-              "call_to_action": {
+              call_to_action: {
+                title: 'Schedule a Demo',
 
-                "title": "Schedule a Demo",
-
-                "href": "/contact-us"
-
-              }
-
+                href: '/contact-us',
+              },
             },
 
             {
+              title_h3: 'Start a Free Trial',
 
-              "title_h3": "Start a Free Trial",
-
-              "_metadata": {
-
-                "uid": "csef530e1f1c49d1b7"
-
+              _metadata: {
+                uid: 'csef530e1f1c49d1b7',
               },
 
-              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vel lorem morbi nulla quis sed diam sed.",
+              description:
+                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vel lorem morbi nulla quis sed diam sed.',
 
-              "call_to_action": {
+              call_to_action: {
+                title: 'Start Free Trial',
 
-                "title": "Start Free Trial",
-
-                "href": "/contact-us"
-
-              }
-
-            }
-
+                href: '/contact-us',
+              },
+            },
           ],
 
-          "_metadata": {
-
-            "uid": "csce2585879f1f30da"
-
-          }
-
-        }
-
-      }
-
+          _metadata: {
+            uid: 'csce2585879f1f30da',
+          },
+        },
+      },
     ],
 
-    "seo": {
+    seo: {
+      meta_title: 'Tekt',
 
-      "meta_title": "Tekt",
+      meta_description: 'Welcome to Tekt',
 
-      "meta_description": "Welcome to Tekt",
+      keywords: 'architecture design tekt',
 
-      "keywords": "architecture design tekt",
-
-      "enable_search_indexing": true
-
+      enable_search_indexing: true,
     },
 
-    "tags": [],
+    tags: [],
 
-    "title": "Home",
+    title: 'Home',
 
-    "updated_at": "2022-09-01T14:39:55.855Z",
+    updated_at: '2022-09-01T14:39:55.855Z',
 
-    "updated_by": "bltfc226d08d1478aa7",
+    updated_by: 'bltfc226d08d1478aa7',
 
-    "url": "/",
+    url: '/',
 
-    "publish_details": {
+    publish_details: {
+      environment: 'blt6c280c135323f9e9',
 
-      "environment": "blt6c280c135323f9e9",
+      locale: 'en-us',
 
-      "locale": "en-us",
+      time: '2022-09-01T14:40:12.016Z',
 
-      "time": "2022-09-01T14:40:12.016Z",
-
-      "user": "bltfc226d08d1478aa7"
-
-    }
-
-  }
-
-}
+      user: 'bltfc226d08d1478aa7',
+    },
+  },
+};
